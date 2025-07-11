@@ -1,5 +1,0 @@
-ultralytics
-torch
-onnx
-onnx-tf
-tensorflow==2.10.1

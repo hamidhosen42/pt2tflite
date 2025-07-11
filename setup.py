@@ -1,14 +1,14 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='pt2tflite',
-    version='0.1.0',
+    name='pytorch2tflite',
+    version='0.1.2',
     description='Convert PyTorch (.pt) models to TFLite format for mobile deployment.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     author='Md.Hamid Hosen',
     author_email='mdhamidhosen4@gmail.com',
-    url='https://github.com/hamidhosen42/pt2tflite',
+    url='https://github.com/hamidhosen42/pytorch2tflite',
     packages=find_packages(),
     install_requires=[
         'ultralytics',
